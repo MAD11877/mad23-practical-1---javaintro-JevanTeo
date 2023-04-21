@@ -11,6 +11,10 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Enter an integer:");
+    int integer= in.nextInt(); 
+    int int_multiplied = integer * integer;
+    System.out.print("Integer Multiplied: " + int_multiplied); 
     
   }
 }
