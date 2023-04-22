@@ -28,7 +28,6 @@ public class Question5
        */
 
       Scanner in = new Scanner(System.in);
-      System.out.print("Enter an integer:");
       int integer = in.nextInt();
       ArrayList<Integer>number_set = new ArrayList<Integer>();
       Integer[] array = {};
