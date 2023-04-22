@@ -20,10 +20,12 @@ public class Question4
     Scanner in = new Scanner(System.in); 
     System.out.print("Enter an integer: ");  
     int integer= in.nextInt(); 
-    for(int count = integer + 1; count >=0; count--){
+    for(int count = integer + 1; count >=0; count--)
+    {
       for(int j = 0; j < count-1; j++)
         System.out.print("*");
       System.out.println();
+    }
 
   }
 }
