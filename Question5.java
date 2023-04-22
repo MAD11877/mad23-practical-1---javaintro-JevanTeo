@@ -46,10 +46,10 @@ public class Question5
         for(int j = 1; j<array.length; j++)
         {
           if(array[j] == array[i]) count++;
-          if(count>maxCount){
-            maxCount = count;
-            maxValue = array[i];
-          }
+        }
+        if(count>maxCount){
+          maxCount = count;
+          maxValue = array[i];
         }
       }
       System.out.println(maxValue);
