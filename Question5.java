@@ -40,10 +40,10 @@ public class Question5
         }
       array = number_set.toArray(array);
       int maxCount = 0, maxValue = 0;
-      for(int i = 1; i<array.length; i++)
+      for(int i = 0; i<array.length; i++)
       {
         int count = 0;
-        for(int j = 1; j<array.length; j++)
+        for(int j = 0; j<array.length; j++)
         {
           if(array[j] == array[i]) count++;
         }
