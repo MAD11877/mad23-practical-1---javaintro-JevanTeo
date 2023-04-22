@@ -35,7 +35,6 @@ public class Question5
       System.out.println(integer);
       for(int i = 0; i < integer; i++)
       {
-        System.out.println("Enter an integer:");
         int set = in.nextInt();
         number_set.add(set);
         }
