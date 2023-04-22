@@ -52,7 +52,7 @@ public class Question5
           maxValue = array[i];
         }
       }
-      System.out.println(maxValue);
+      System.out.print(maxValue);
 
     }
 }
