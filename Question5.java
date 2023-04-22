@@ -52,7 +52,7 @@ public class Question5
           }
         }
       }
-      System.out.print(maxValue);
+      System.out.println(maxValue);
 
     }
 }
