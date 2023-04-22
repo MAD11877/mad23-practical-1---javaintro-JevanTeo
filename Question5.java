@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class Question5
 {
-  public class NoSuchElementExceptionExample {
     public static void main(String[] args)
     {
       /**
@@ -58,5 +57,4 @@ public class Question5
       System.out.print(maxValue);
 
     }
-  }
 }
