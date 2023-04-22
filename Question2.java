@@ -15,6 +15,6 @@ public class Question2
       System.out.println("Enter your weight:");
       double weight = in.nextDouble();
       double bmi = (weight/((height * height)));
-      System.out.printf("Your Bmi is: %f%n", bmi)
+      System.out.printf("Your Bmi is: %f%n", bmi);
   }
 }
