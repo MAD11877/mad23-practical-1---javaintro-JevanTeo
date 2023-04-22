@@ -27,6 +27,33 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Enter an integer:");
+    int integer = in.nextInt();
+    ArrayList<Integer>number_set = new ArrayList<Integer>();
+    Integer[] array = {};
+    System.out.println(integer);
+    for(int i = 0; i < integer; i++)
+    {
+      Scanner input = new Scanner(System.in);
+      System.out.println("Enter an integer:");
+      int set = input.nextInt();
+      number_set.add(set);
+      }
+    array = number_set.toArray(array);
+    int maxCount = 0, maxValue = 0;
+    for(int i = 1; i<array.length; i++)
+    {
+      int count = 0;
+      for(int j = 1; j<array.length; j++)
+      {
+        if(array[j] == array[i]) count++;
+        if(count>maxCount){
+          maxCount = count;
+          maxValue = array[i];
+        }
+      }
+    }
+    System.out.print(maxValue);
     
   }
 }
