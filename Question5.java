@@ -31,7 +31,6 @@ public class Question5
       int integer = in.nextInt();
       ArrayList<Integer>number_set = new ArrayList<Integer>();
       Integer[] array = {};
-      System.out.println(integer);
       for(int i = 0; i < integer; i++)
       {
         int set = in.nextInt();
