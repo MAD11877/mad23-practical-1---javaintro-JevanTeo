@@ -36,7 +36,7 @@ public class Question5
       {
         int set = in.nextInt();
         number_set.add(set);
-        }
+      }
       array = number_set.toArray(array);
       int maxCount = 0;
       int maxValue = 0;
