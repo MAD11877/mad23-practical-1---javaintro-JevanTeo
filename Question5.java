@@ -48,7 +48,6 @@ public class Question5
           if(array[j] == array[i]) count++;
         }
         if(count>maxCount){
-          maxCount = count;
           maxValue = array[i];
         }
       }
