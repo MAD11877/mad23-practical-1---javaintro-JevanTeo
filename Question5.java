@@ -29,7 +29,6 @@ public class Question5
 
       Scanner in = new Scanner(System.in);
       int integer = in.nextInt();
-      System.out.println("");
       ArrayList<Integer>number_set = new ArrayList<Integer>();
       Integer[] array = {};
       System.out.println(integer);
